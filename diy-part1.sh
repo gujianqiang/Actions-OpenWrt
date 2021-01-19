@@ -49,7 +49,7 @@ git clone $lienol_url package
 echo '添加Passwall'
 echo 'CONFIG_PACKAGE_luci-app-passwall=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_GO=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y' >> .config
